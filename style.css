@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    text-align: center;
+}
+
+.container-game{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    border-radius: 20px; 
+}
+
+.container-user{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.274);
+    margin-top: 33px;
+    border-radius: 20px;
+    background-color: rgb(72, 255, 0);
+}
+
+
+.img-User, .img-Compu{
+    padding: 30px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+
+.container-user .rol, .accountantPc, .accountantUser{
+    text-align: center;
+    margin-top: 12px;
+}
+
+.message{
+    width: 100%;
+    height: 4vh;
+}
+
+.container-pc{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.container-game h2{
+    text-align: center;
+    margin-top: 32px;
+}
+
+.message{
+    text-align: center;
+    margin-top: 12px;
+    margin-top: 22px;
+}
+
+.img-batalla{
+    padding: 30px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+.container-pc .button_Paper, .button_Stone, .button_Scissors{
+    width: 200px;
+    border-radius: 50%;
+    margin: 20px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.container-pc .button_Paper:hover
+,.button_Stone:hover
+,.button_Scissors:hover{
+    border: 4px solid #0bff1f47;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.link{
+    padding: 10px 15px;
+    color: #06283D;
+    font-size: 22px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 2px solid  #40d18d47;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.link:hover{
+    padding: 10px 18px;
+    color: #000;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 5px solid  #4cd14047;
+    text-decoration: none;
+    transition: 0.5s;
+}
